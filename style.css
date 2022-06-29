@@ -85,13 +85,13 @@ body {
 
 .btn {
   display: inline-block;
-  width: 14rem;
+  width: fit-content;
   text-align: center;
   text-decoration: none;
   background-color: var(--very-light-gray);
   border: 2px solid var(--very-light-gray);
   border-radius: 100px;
-  padding: 1rem;
+  padding: 1rem 3rem;
   cursor: pointer;
 }
 
