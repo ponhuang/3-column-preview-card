@@ -54,12 +54,20 @@ Mobile
 
 ### What I learned
 
-Learn how to use :nth-child() instead of setting every element with class name.
+1. Learn how to use :nth-child() instead of setting every element with class name.
 
 ```css
 .cards:nth-child(1) {
   border-radius: 10px 0 0 10px;
   background-color: var(--bright-orange);
+}
+```
+
+2. Fix the text didn't take the inline-block value, instead to use fit-content to take up the space as it needs.
+
+```css
+.btn {
+  width: fit-content;
 }
 ```
 
@@ -73,3 +81,8 @@ Pon Huang
 
 - Instagram - [Pon Huang](https://www.instagram.com/ponhuang/)
 - Art Blog - [une felt](https://une722.wordpress.com)
+
+## Acknowledgments
+
+[ Yasmine De Wolf ](https://www.frontendmentor.io/profile/Yasmine10)
+Thanks for helping me to make the button text to take as its own letter space. By using width: fit-content
